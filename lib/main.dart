@@ -30,9 +30,21 @@ class _QuizPageState extends State<QuizPage> {
   bool check=false;
   List<String> qs =['You can lead a cow down stairs but not up stairs.',
   'Approximately one quarter of human bones are in the feet.',
-  'A slug\'s blood is green.'
+  'A slug\'s blood is green.',
+  'The capital of Libya is Benghazi.',
+  'Albert Einstein was awarded the Nobel Prize in Physics.',
+  'Baby koalas are called joeys.',
+  'Gone with the Wind takes place in Savannah, Georgia.',
+  'Brazil is the only country in the Americas whose official language is Portuguese.',
+  'The first name of Kramer in Seinfeld is Cosmo.',
+  'The American Civil War ended in 1776.',
+  'A right triangle can never be equilateral.',
+  'The Ford Edsel was named after Henry Ford’s father.',
+  'The Dickens novel Oliver Twist begins with the well-known phrase: “It was the best of times, it was the worst of times.”',
+  '“Paprika” is the Hungarian word for “pepper.”',
+  'The Bill of Rights contains 10 amendments to the Constitution.'
   ];
-  List<bool> ans = [false,true,true];
+  List<bool> ans = [false,true,true,false,true,true,false,true,true,false,true,false,false,true,true];
   @override
   Widget build(BuildContext context) {
     return Column(
